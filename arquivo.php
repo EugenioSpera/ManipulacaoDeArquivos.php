@@ -29,15 +29,7 @@ else {
 ?>
 
 
-<?php
 
-$file = fopen("exemplo.txt", "a+"); //
-fwrite($file,'Escrevendo dados no arquivo txt<br>');
-$abrir=fread($file, filesize('exemplo.txt'));
-fclose($file);
-echo $abrir;
-
-?>
 
 <?php
 
